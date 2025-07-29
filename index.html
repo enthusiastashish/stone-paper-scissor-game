@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor Game</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1 id="title" >STONE-PAPER-SCISSOR</h1>
+        </div>
+        <div class="gameArea">
+            <div class="scoreBox hide">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>YOU</th>
+                            <th>COMPUTER</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th id="val1">0
+                            </th>
+                            <th id="val2">0</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="buttonArea">
+                <button class="buttons" id="paper"><i class="fa-solid fa-hand"></i></button>
+                <button class="buttons" id="stone"><i class="fa-solid fa-hand-back-fist"></i></button>
+                <button class="buttons" id="scissor"><i class="fa-solid fa-hand-scissors" ></i></button>
+            </div>
+            <br>
+            <div class="resultBox">
+                <div class="result hide">
+                    <p id="resultHere">resultHere</p>
+                </div>
+            </div>
+            <div class="reset">
+                <button id="reset">RESET GAME</button>
+            </div>
+        </div>
+        <footer>
+            <p id="shareMSG">share it with your friends <i class="fa-solid fa-heart"></i> </p>
+        </footer>
+    </div>
+<script src="script.js" ></script>
+</body>
+</html>
