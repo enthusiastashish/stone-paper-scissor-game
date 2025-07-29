@@ -27,5 +27,9 @@ A simple and fun web-based Rock Paper Scissors game built using HTML, CSS, and J
 Built with 💙 by enthusiastshish  
 Inspired by classic logic and modern UI trends
 
+## Direct link 
+
+https://enthusiastashish.github.io/stone-paper-scissor-game/
+
 
 
