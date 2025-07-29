@@ -19,7 +19,7 @@ A simple and fun web-based Rock Paper Scissors game built using HTML, CSS, and J
 ## Tech Stack
 
 - HTML
-- CSS (Bootstrap)
+- CSS 
 - JavaScript (Vanilla JS)
 
 ## Credits
